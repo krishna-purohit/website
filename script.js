@@ -7,3 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
     el.style.animationDelay = `${index * 0.2}s`;
   });
 });
+function toggleMenu() {
+  const nav = document.getElementById("navLinks");
+  nav.classList.toggle("show");
+}
